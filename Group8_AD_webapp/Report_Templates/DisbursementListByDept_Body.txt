@@ -1,0 +1,17 @@
+<tr>
+	<td style="border:solid 1px black;">
+		[itemcode]
+	</td>
+	<td style="border:solid 1px black;">
+		[item_category]
+	</td>
+	<td style="border:solid 1px black;">
+		[item_desc]
+	</td>
+	<td style="border:solid 1px black;">
+		[request_qty]
+	</td>
+	<td style="border:solid 1px black;">
+		[fulfilled_qty]
+	</td>	
+</tr>

@@ -1,0 +1,48 @@
+<table id=dusbList>
+<tr>
+    <td style="font-size:18px;font-weight: bold;">
+    Disbursement List
+    </td>
+</tr>
+<tr>
+    <td style="font-size:18px;font-weight: bold;"  >
+    Disbursement List at [disb-date] for Registrar Department 
+    </td>
+</tr>
+<tr>
+    <td style="font-size:18px;font-weight: bold;" >
+    Collection Point: [coll-point]
+    </td>
+</tr>
+<tr>
+    <td style="font-size:18px;font-weight: bold;">
+    Department: [DeptCode]
+    </td>
+</tr>
+<tr><td></td></tr>
+</table>
+<table>
+<thead>
+<tr>
+    	<th style="text-decoration: underline; border: solid 1px black;">
+        Item Code
+        </th>
+        <th style="text-decoration: underline;border: solid 1px black;">
+        Item Category
+        </th>
+        
+        <td style="text-decoration: underline; border: solid 1px black;">
+        Item Description
+        </th>
+        
+        <th style="text-decoration: underline; border: solid 1px black;">
+        Request Quantity
+        </th>
+        
+         <th style="text-decoration: underline; border: solid 1px black;">
+        Fulfilled Quantity
+        </th>          
+</tr>
+</thead>
+<tbody>
+
