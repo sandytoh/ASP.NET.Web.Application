@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c8cd6dd433845b19024ddc92c852854" Name="Diagram1">
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Adjustment" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.CollectionPoint" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Department" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Employee" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Item" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Notification" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Request" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.RequestDetail" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Supplier" Width="1.5" PointX="1.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="SA46Team08ADProjectModel.Transaction" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Adjustmen__Appro__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Adjustmen__EmpId__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Adjustmen__ItemC__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Departmen__Deleg__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Departmen__DeptH__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Departmen__DeptR__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Employee__DeptCo__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Notificat__FromE__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Notificat__ToEmp__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Request__Approve__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Request__EmpId__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Item__SuppCode1__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Item__SuppCode2__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__Item__SuppCode3__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__RequestDe__ItemC__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="SA46Team08ADProjectModel.FK__RequestDe__ReqId__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

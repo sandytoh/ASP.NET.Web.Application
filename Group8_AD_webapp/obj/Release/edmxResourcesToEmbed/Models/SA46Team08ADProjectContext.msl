@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SA46Team08ADProjectModelStoreContainer" CdmEntityContainer="SA46Team08ADProjectContext">
+    <EntitySetMapping Name="Adjustments">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Adjustment">
+        <MappingFragment StoreEntitySet="Adjustment">
+          <ScalarProperty Name="VoucherNo" ColumnName="VoucherNo" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="DateTimeIssued" ColumnName="DateTimeIssued" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="QtyChange" ColumnName="QtyChange" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+          <ScalarProperty Name="ApproverComment" ColumnName="ApproverComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CollectionPoints">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.CollectionPoint">
+        <MappingFragment StoreEntitySet="CollectionPoint">
+          <ScalarProperty Name="ColPtId" ColumnName="ColPtId" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="ClerkId" ColumnName="ClerkId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="DeptCode" ColumnName="DeptCode" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="DeptCtcNo" ColumnName="DeptCtcNo" />
+          <ScalarProperty Name="DeptFaxNo" ColumnName="DeptFaxNo" />
+          <ScalarProperty Name="ColPtId" ColumnName="ColPtId" />
+          <ScalarProperty Name="DeptHeadId" ColumnName="DeptHeadId" />
+          <ScalarProperty Name="DeptRepId" ColumnName="DeptRepId" />
+          <ScalarProperty Name="DelegateApproverId" ColumnName="DelegateApproverId" />
+          <ScalarProperty Name="DelegateFromDate" ColumnName="DelegateFromDate" />
+          <ScalarProperty Name="DelegateToDate" ColumnName="DelegateToDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="DeptCode" ColumnName="DeptCode" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="EmpAddr" ColumnName="EmpAddr" />
+          <ScalarProperty Name="EmpEmail" ColumnName="EmpEmail" />
+          <ScalarProperty Name="EmpCtcNo" ColumnName="EmpCtcNo" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="Cat" ColumnName="Cat" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="UOM" ColumnName="UOM" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="ReorderLevel" ColumnName="ReorderLevel" />
+          <ScalarProperty Name="ReorderQty" ColumnName="ReorderQty" />
+          <ScalarProperty Name="TempQtyDisb" ColumnName="TempQtyDisb" />
+          <ScalarProperty Name="TempQtyCheck" ColumnName="TempQtyCheck" />
+          <ScalarProperty Name="SuppCode1" ColumnName="SuppCode1" />
+          <ScalarProperty Name="Price1" ColumnName="Price1" />
+          <ScalarProperty Name="SuppCode2" ColumnName="SuppCode2" />
+          <ScalarProperty Name="Price2" ColumnName="Price2" />
+          <ScalarProperty Name="SuppCode3" ColumnName="SuppCode3" />
+          <ScalarProperty Name="Price3" ColumnName="Price3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Notification">
+        <MappingFragment StoreEntitySet="Notification">
+          <ScalarProperty Name="NotificationId" ColumnName="NotificationId" />
+          <ScalarProperty Name="NotificationDateTime" ColumnName="NotificationDateTime" />
+          <ScalarProperty Name="FromEmp" ColumnName="FromEmp" />
+          <ScalarProperty Name="ToEmp" ColumnName="ToEmp" />
+          <ScalarProperty Name="RouteUri" ColumnName="RouteUri" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Requests">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="ReqId" ColumnName="ReqId" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+          <ScalarProperty Name="ApproverComment" ColumnName="ApproverComment" />
+          <ScalarProperty Name="ReqDateTime" ColumnName="ReqDateTime" />
+          <ScalarProperty Name="ApprovedDateTime" ColumnName="ApprovedDateTime" />
+          <ScalarProperty Name="CancelledDateTime" ColumnName="CancelledDateTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FulfilledDateTime" ColumnName="FulfilledDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestDetails">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.RequestDetail">
+        <MappingFragment StoreEntitySet="RequestDetail">
+          <ScalarProperty Name="ReqId" ColumnName="ReqId" />
+          <ScalarProperty Name="ReqLineNo" ColumnName="ReqLineNo" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="ReqQty" ColumnName="ReqQty" />
+          <ScalarProperty Name="AwaitQty" ColumnName="AwaitQty" />
+          <ScalarProperty Name="FulfilledQty" ColumnName="FulfilledQty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="SuppCode" ColumnName="SuppCode" />
+          <ScalarProperty Name="SuppName" ColumnName="SuppName" />
+          <ScalarProperty Name="SuppCtcName" ColumnName="SuppCtcName" />
+          <ScalarProperty Name="SuppCtcNo" ColumnName="SuppCtcNo" />
+          <ScalarProperty Name="SuppFaxNo" ColumnName="SuppFaxNo" />
+          <ScalarProperty Name="SuppAddr" ColumnName="SuppAddr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="SA46Team08ADProjectModel.Transaction">
+        <MappingFragment StoreEntitySet="Transaction">
+          <ScalarProperty Name="TranId" ColumnName="TranId" />
+          <ScalarProperty Name="TranDateTime" ColumnName="TranDateTime" />
+          <ScalarProperty Name="ItemCode" ColumnName="ItemCode" />
+          <ScalarProperty Name="QtyChange" ColumnName="QtyChange" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+          <ScalarProperty Name="DeptCode" ColumnName="DeptCode" />
+          <ScalarProperty Name="SuppCode" ColumnName="SuppCode" />
+          <ScalarProperty Name="VoucherNo" ColumnName="VoucherNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

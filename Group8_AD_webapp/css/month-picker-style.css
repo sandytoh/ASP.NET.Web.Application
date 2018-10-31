@@ -1,0 +1,55 @@
+.month-picker{
+    background-color: #fff;
+    font-size: 1.6rem;
+}
+
+.month-picker-title {
+    width: 145px;
+    color: #000;
+}
+
+.month-picker-title a{
+    color: #000;
+    text-decoration: none;
+}
+
+.month-picker-previous{
+    color: #000;
+}
+
+.month-picker-title a:hover {
+    background-color: var(--color-accent);
+    text-decoration: none;
+    color: #000;
+}
+
+.month-picker-month-table tr td a {
+    display: block;
+    width: 23%;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+.month-picker-month-table tr td a:hover {
+    background-color: #eee;
+    text-decoration: none;
+    color: #000;
+}
+
+.ui-state-disabled {
+    cursor: pointer;
+    pointer-events: unset;
+    opacity: 1 !important;
+}
+
+.ui-button, .ui-widget-header{
+    background: unset !important;
+    background-color: var(--color-accent);
+    border: none;
+}

@@ -1,0 +1,30 @@
+﻿
+body {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.opacitylow{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.error{
+    color: red;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.logstyle{
+    width:100%;
+}
+
+.errortext{
+    color: red;
+    font-weight: 700;
+}

@@ -1,0 +1,271 @@
+﻿
+.phtrend {
+    position: relative; 
+    height:50vh; 
+    width:75vw;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .phtrend {
+        position: relative;
+        height: 400px !important;
+        width: 400px !important;
+        margin-bottom: 50px;
+    }
+
+    .chartjs-render-monitor {
+        width: 363px !important;
+        height: 400px !important;
+    }
+
+    #sidebar-collapse{
+        position:fixed;
+    }
+
+    #sidebar {
+        max-width: 100vw !important;
+    }
+}
+
+#main {
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+@media only screen and (min-width : 768px) {
+    #main {
+        padding-left: 250px;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    #main {
+        padding-left: 19vw;
+    }
+}
+
+#centermain, #centermain2{
+    margin-top: 100px;
+}
+
+.titletext {
+    font-family: var(--font-headline);
+    font-weight: 700;
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+}
+
+.subtitletext {
+    font-family: var(--font-headline);
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.smalltext {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.listtitletext {
+    font-family: var(--font-headline);
+    font-weight: 700;
+    font-size: 2.1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.controlheight {
+    height: calc(3.3rem + 2px) !important;
+}
+
+
+.tablepad{
+    padding: 0px 30px;
+}
+
+.btnbold{
+    font-weight: 700;
+}
+
+.formstyle, .formstyle2 {
+    text-align: left;
+    /*padding-left: 320px;*/
+    position: fixed;
+    top: 60px;
+    padding-top: 8px;
+    width: 100vw;
+    height: 60px;
+    z-index: 99;
+    background-color: #fff;
+}
+
+
+    .btn-back {
+        background-color: #fff;
+        font-family: var(--font-btn);
+        border: 1px solid var(--color-btn-primary);
+        color: var(--color-btn-primary);
+        font-size: 1.6rem;
+    }
+
+        .btn-back:hover {
+            color: #fff;
+            background-color: var(--color-btn-primary);
+        }
+
+    .pager span {
+        border: 1px #eee solid;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-decoration: none;
+    }
+
+    .pager a {
+        border: 1px #eee solid;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-decoration: none;
+    }
+
+    .currentpg {
+        border: 1px white solid;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+
+    .pager a:hover {
+        text-decoration: none;
+        background-color: #eee;
+    }
+
+    .ml-10 {
+        margin-left: 10px;
+    }
+
+    .bold {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .bb {
+        border: 1px solid var(--color-btn-primary) !important;
+    }
+
+    .btn-add {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+        background-color: var(--color-btn-primary);
+        font-family: var(--font-text);
+    }
+
+        .btn-add:hover {
+            text-decoration: none;
+            color: #fff;
+            background-color: var(--color-btn-primary-hover)
+        }
+
+    #rdbChart > tbody > tr > td {
+        padding-left: 20px;
+    }
+
+    .mt-15 {
+        margin-top: 15px;
+    }
+
+    .montharea {
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        width: 95%;
+        padding: 10px 20px;
+    }
+
+    .monthareali {
+        line-height: 2.8rem;
+    }
+
+    #btnBar .active {
+        color: var(--color-primary);
+    }
+
+    #btnList .active {
+        color: var(--color-primary);
+    }
+
+    .listbutton {
+        border: 1px #eee solid;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 2rem;
+        color: var(--color-text);
+        margin: 0px;
+    }
+
+        .listbutton:hover {
+            text-decoration: none;
+            background-color: #eee;
+        }
+
+        .listbutton a {
+            text-decoration: none;
+        }
+
+        .listbutton.active {
+            color: var(--color-primary);
+        }
+
+        .blacktext{
+            color: #000 !important;
+        }
+
+.ui-button-disabled {
+    color: #ddd !important;
+    pointer-events: none !important;
+}
+
+.ui-widget-content{
+    background: unset !important;
+    background-color: #fff !important;
+}
+
+@media only screen and (max-width : 768px) {
+    .formstyle, .formstyle2 {
+        padding-left: 20px;
+    }
+
+    .formstyle {
+        height: 160px;
+    }
+    .formstyle2 {
+        height: 230px;
+    }
+
+    .input-group{
+        max-width: 250px;
+    }
+}
+
+    @media only screen and (max-width : 1200px) {
+        .formstyle2 {
+            height: 170px;
+        }
+
+        #centermain {
+            margin-top: 160px;
+        }
+
+        #centermain2 {
+            margin-top: 230px;
+            padding-left: 20px;
+        }
+        .formstyle {
+            height: 100px;
+        }
+    }
